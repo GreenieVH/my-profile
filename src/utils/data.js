@@ -1,8 +1,7 @@
 import images from "~/assets/images/Image";
-
 export const skilldata = [
   {
-    title: "fronend",
+    title: "Fronend",
     icon: images.logo,
     skills: [
       { skill: "html5", percentage: "80%" },
@@ -12,8 +11,8 @@ export const skilldata = [
     ],
   },
   {
-    title: "backend",
-    icon: images.logo,
+    title: "Backend",
+    icon: images.backend,
     skills: [
       { skill: ".net1", percentage: "20%" },
       { skill: ".net2", percentage: "60%" },
@@ -22,8 +21,8 @@ export const skilldata = [
     ],
   },
   {
-    title: "develop",
-    icon: images.logo,
+    title: "Skill",
+    icon: images.skill,
     skills: [
       { skill: "html5", percentage: "40%" },
       { skill: "html6", percentage: "60%" },
@@ -32,8 +31,8 @@ export const skilldata = [
     ],
   },
   {
-    title: "tool",
-    icon: images.logo,
+    title: "Tool",
+    icon: images.tool,
     skills: [
       { skill: "html5", percentage: "80%" },
       { skill: "html6", percentage: "30%" },
@@ -70,4 +69,22 @@ export const workexdata = [
       "saepe quos! Magni culpa repellendus doloribus inventore iure?"
     ]
   }
+]
+export const projectdata = [
+  {
+    title:"Project 1",
+    img: images.project1,
+  },
+  {
+    title:"Project 2",
+    img: images.project2,
+  },
+  {
+    title:"Project 3",
+    img: images.project3,
+  },
+  {
+    title:"Project 4",
+    img: images.project4,
+  },
 ]

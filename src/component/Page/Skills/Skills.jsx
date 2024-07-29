@@ -11,7 +11,7 @@ function Skills() {
     setSelectedSkill(data);
   };
   return (
-    <section className="skills-container">
+    <section className="skills-container" id="skill">
       <h5>Technical Proficiency</h5>
       <div className="skills-content">
         <div className="skill">

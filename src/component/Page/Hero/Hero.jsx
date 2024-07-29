@@ -8,7 +8,7 @@ import { SiJavascript } from "react-icons/si";
 function Hero() {
   return (
     <>
-      <section className="hero-container flex items-center relative">
+      <section className="hero-container flex items-center relative" id="home">
         <div className="hero-content flex-1">
           <h2 className="text-6xl font-semibold mb-8">Building Digital Experiences</h2>
           <p className="w-4/5 text-base">

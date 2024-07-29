@@ -1,0 +1,27 @@
+.project-container {
+  margin: 4rem 0;
+  position: relative;
+  h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3.5rem;
+  }
+  .project-content {
+    padding: 0 1.5rem;
+  }
+}
+@media (max-width: 1025px) {
+  .project-container {
+    .project-content {
+      padding: 0;
+    }
+  }
+}
+@media (max-width: 768px) {
+    .project-container {
+      h5{
+        font-size: 1.3rem;
+            margin-bottom: 2rem;
+      }
+    }
+  }

@@ -32,7 +32,7 @@ const WorkExperience = () => {
     silderRef.current.slickPrev();
   }
   return (
-    <section className="experience-container">
+    <section className="experience-container" id="work-experience">
       <h5>WorkExperience</h5>
       <div className="experience-content">
         <div className="arrow-left" onClick={slideLeft}>
