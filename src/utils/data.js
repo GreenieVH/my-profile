@@ -42,3 +42,32 @@ export const skilldata = [
     ],
   },
 ];
+export const workexdata = [
+  {
+    title:"work at school",
+    date:"2021-2025",
+    response:[
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quas accusantium ",
+      "nesciunt quam cumque rem, sit consequuntur modi pariatur aliquam natus expedita ",
+      "saepe quos! Magni culpa repellendus doloribus inventore iure?"
+    ]
+  },
+  {
+    title:"work at school 1",
+    date:"2021-2025",
+    response:[
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quas accusantium ",
+      "nesciunt quam cumque rem, sit consequuntur modi pariatur aliquam natus expedita ",
+      "saepe quos! Magni culpa repellendus doloribus inventore iure?"
+    ]
+  },
+  {
+    title:"work at school 2",
+    date:"2021-2025",
+    response:[
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quas accusantium ",
+      "nesciunt quam cumque rem, sit consequuntur modi pariatur aliquam natus expedita ",
+      "saepe quos! Magni culpa repellendus doloribus inventore iure?"
+    ]
+  }
+]

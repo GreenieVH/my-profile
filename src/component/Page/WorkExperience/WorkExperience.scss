@@ -1,0 +1,68 @@
+.experience-container {
+  margin: 4rem 0;
+  position: relative;
+  h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3.5rem;
+  }
+  .experience-content {
+    padding: 0 1.5rem;
+    .arrow-left,
+    .arrow-right {
+      width: 2.2rem;
+      height: 2.2rem;
+      background: #130f2a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #6751b9;
+      border-radius: 0.5rem;
+      border: 1px solid #6751b9;
+      position: absolute;
+      top: 60%;
+      z-index: 2;
+      cursor: pointer;
+      .arrow-icon {
+        font-size: 1.8rem;
+        font-weight: 400;
+      }
+    }
+    .arrow-left {
+      left: 0;
+    }
+    .arrow-right {
+      right: 0;
+    }
+  }
+}
+@media (max-width: 1025px) {
+  .experience-container {
+    .experience-content {
+      padding: 0;
+    }
+  }
+}
+@media (max-width:768px) {
+    .experience-container {
+        h5{
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+        }
+        .experience-content {
+          .arrow-left,.arrow-right{
+            width: 2rem;
+            height: 2rem;
+            .arrow-icon{
+                font-size: 1.3rem;
+            }
+          }
+          .arrow-left{
+            left: -0.5rem;
+          }
+          .arrow-right{
+            right: -0.5rem;
+          }
+        }
+      }
+}

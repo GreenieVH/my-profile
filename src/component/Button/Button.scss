@@ -1,0 +1,23 @@
+.btn-gb {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  border: 1.5px solid #6751b9;
+  border-radius: 0.65rem;
+  padding: 0.7rem;
+  background: linear-gradient(90deg, #a982fe 0%, #8064e8 100%);
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover{
+    color: #a982fe;
+    background: transparent;
+  }
+}
+@media (max-width:450px) {
+    .btn-gb{
+      font-size: 0.9rem;
+      padding: 0.7rem;
+      border-radius: 0.3rem;
+    }
+}
