@@ -4,40 +4,35 @@ export const skilldata = [
     title: "Fronend",
     icon: images.logo,
     skills: [
-      { skill: "html5", percentage: "80%" },
-      { skill: "html6", percentage: "30%" },
-      { skill: "html7", percentage: "50%" },
-      { skill: "html8", percentage: "70%" },
+      { skill: "HTML5", percentage: "80%" },
+      { skill: "CSS", percentage: "70%" },
+      { skill: "JavaScript", percentage: "50%" },
+      { skill: "ReactJS", percentage: "40%" },
     ],
   },
   {
     title: "Backend",
     icon: images.backend,
     skills: [
-      { skill: ".net1", percentage: "20%" },
-      { skill: ".net2", percentage: "60%" },
-      { skill: ".net3", percentage: "30%" },
-      { skill: ".net4", percentage: "90%" },
+      { skill: ".NET", percentage: "40%" },
+      { skill: "NodeJS", percentage: "30%" },
+      { skill: "NextJS", percentage: "30%" },
     ],
   },
   {
-    title: "Skill",
+    title: "Cơ sở dữ liệu",
     icon: images.skill,
     skills: [
-      { skill: "html5", percentage: "40%" },
-      { skill: "html6", percentage: "60%" },
-      { skill: "html7", percentage: "70%" },
-      { skill: "html8", percentage: "40%" },
+      { skill: "SQL server", percentage: "50%" },
+      { skill: "MongoDB", percentage: "20%" },
     ],
   },
   {
     title: "Tool",
     icon: images.tool,
     skills: [
-      { skill: "html5", percentage: "80%" },
-      { skill: "html6", percentage: "30%" },
-      { skill: "html7", percentage: "40%" },
-      { skill: "html8", percentage: "10%" },
+      { skill: "Git", percentage: "50%" },
+      { skill: "Github", percentage: "40%" },
     ],
   },
 ];
@@ -46,29 +41,29 @@ export const workexdata = [
     title:"work at school",
     date:"2021-2025",
     response:[
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quas accusantium ",
-      "nesciunt quam cumque rem, sit consequuntur modi pariatur aliquam natus expedita ",
-      "saepe quos! Magni culpa repellendus doloribus inventore iure?"
+      "Tham gia các hoạt động trao đổi công nghệ tại trường.",
+      "Trao đổi làm việc nhóm với các dự án.",
+      "Hoàn thành các môn học và đồ án."
     ]
   },
   {
-    title:"work at school 1",
+    title:"work at school",
     date:"2021-2025",
     response:[
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quas accusantium ",
-      "nesciunt quam cumque rem, sit consequuntur modi pariatur aliquam natus expedita ",
-      "saepe quos! Magni culpa repellendus doloribus inventore iure?"
+      "Tham gia các hoạt động trao đổi công nghệ tại trường.",
+      "Trao đổi làm việc nhóm với các dự án.",
+      "Hoàn thành các môn học và đồ án."
     ]
   },
   {
-    title:"work at school 2",
+    title:"work at school",
     date:"2021-2025",
     response:[
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quas accusantium ",
-      "nesciunt quam cumque rem, sit consequuntur modi pariatur aliquam natus expedita ",
-      "saepe quos! Magni culpa repellendus doloribus inventore iure?"
+      "Tham gia các hoạt động trao đổi công nghệ tại trường.",
+      "Trao đổi làm việc nhóm với các dự án.",
+      "Hoàn thành các môn học và đồ án."
     ]
-  }
+  },
 ]
 export const projectdata = [
   {

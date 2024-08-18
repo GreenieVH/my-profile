@@ -10,10 +10,9 @@ function Hero() {
     <>
       <section className="hero-container flex items-center relative" id="home">
         <div className="hero-content flex-1">
-          <h2 className="text-6xl font-semibold mb-8">Building Digital Experiences</h2>
+          <h2 className="text-6xl font-semibold mb-8">TRẦN VIỆT HOÀNG</h2>
           <p className="w-4/5 text-base">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.sitdas amet
-            consectetur, adipisicing elit.
+            Sinh viên năm 4 trường Đại học Nguyễn Trãi chuyên ngành công nghệ thông tin.
           </p>
         </div>
         <div className="hero-image flex-1 flex flex-col items-center gap-8 mt-20">

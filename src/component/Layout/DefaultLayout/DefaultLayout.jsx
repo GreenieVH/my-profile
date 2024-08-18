@@ -16,7 +16,7 @@ function DefaultLayout() {
                 <Hero/>
                 <Skills/>
                 <WorkExperience/>
-                <Project/>
+                {/* <Project/> */}
                 <ContactMe/>
             </div>
             <Footer/>
